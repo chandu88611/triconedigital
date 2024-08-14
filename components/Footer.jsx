@@ -1,8 +1,10 @@
 import React from 'react'
 
 export default function Footer() {
+
   return (
     <footer className="bg-dark text-light">
+      
     <div className="footer-shape">
       <div className="item bottom">
         <img src="assets/img/shape/38.png" alt="Shape" />
@@ -11,6 +13,7 @@ export default function Footer() {
         <img src="assets/img/shape/9.png" alt="Shape" />
       </div>
     </div>
+
     <div className="container">
       <div className="f-items relative pt-70 pb-120 pt-xs-0 pb-xs-50">
         <div className="row">
@@ -129,7 +132,7 @@ export default function Footer() {
         </div>
       </div>
     </div>
-    {/* Start Footer Bottom */}
+ 
     <div className="footer-bottom">
       <div className="container">
         <div className="row">
@@ -155,7 +158,7 @@ export default function Footer() {
         </div>
       </div>
     </div>
-    {/* End Footer Bottom */}
+  
   </footer>
   )
 }
